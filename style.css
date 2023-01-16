@@ -32,8 +32,42 @@ body {
     gap: 20px;
 }
 
-li a {
+li a, .top-content p {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.top-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.top-content img {
+    border-radius: 5px;
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    border: rgb(187, 169, 7) 5px solid;
+}
+
+button {
+    background: #3882f6;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+img {
+    width: 250px;
+    height: auto;
 }
